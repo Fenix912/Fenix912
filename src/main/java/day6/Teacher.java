@@ -9,9 +9,7 @@ public class Teacher {
     public Teacher(String name, String item) {
         this.name = name;
         this.Item = item;
-
     }
-
     public String getName() {
         return name;
     }
@@ -29,8 +27,6 @@ public class Teacher {
     void evaluate(Student student){
         int randomNumber = random.nextInt(4) + 2;
 
-
-
         String grade = "";
         switch (randomNumber) {
             case 2:
@@ -46,10 +42,8 @@ public class Teacher {
                 grade = "Отлично";
                 break;
         }
-            System.out.println("Преподаватель " + this.name + "\n" + "оценил студента с именем " + student.getName() + "\n" + "по предмету " +  this.Item + "\n" + "на оценку " + grade);
-
-
-
+            System.out.println("Преподаватель " + this.name + "\n" + "оценил студента с именем " + student.getName() +
+                    "\n" + "по предмету " +  this.Item + "\n" + "на оценку " + grade);
         }
     }
 

@@ -11,7 +11,6 @@ public class Car {
             } else {
                 model = userModel;
             }
-
         }
         public String getModel() {
             return model;

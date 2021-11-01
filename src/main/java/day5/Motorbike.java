@@ -6,7 +6,6 @@ public class Motorbike {
         private String Color;
         private int year;
 
-
         public Motorbike(String Model, String Color, int God) {
             this.Model = Model;
             this.Color = Color;

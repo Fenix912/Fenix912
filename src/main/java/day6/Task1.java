@@ -15,6 +15,7 @@ public class Task1 {
                 "Год производства: " + car1.getyear() + "\n" + "Колличество лет машине: " + car1.yearDifference(2020));
         System.out.println("\n");
 
+
         Motorbike motorbike1 = new Motorbike();
         motorbike1.setModel("BMW");
         motorbike1.setColor("Black");
