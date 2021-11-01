@@ -9,8 +9,6 @@ public class Task1 {
         car1.setColor("Blue");
         car1.setYear(2010);
 
-
-
         car1.info();
 
         System.out.println("Модель: " + car1.getModel() + "\n" + "Цвет машины: " + car1.getColor() + "\n" +
@@ -21,7 +19,6 @@ public class Task1 {
         motorbike1.setModel("BMW");
         motorbike1.setColor("Black");
         motorbike1.setYear(2019);
-
 
         motorbike1.info();
 

@@ -7,6 +7,7 @@ public class Task1 {
         car1.setColor("Red");
         car1.setyear(2020);
 
+
         System.out.println("Модель машины: " + car1.getModel());
         System.out.println("Цвет машины: " + car1.getColor());
         System.out.println("Год машины: " + car1.getyear());

@@ -50,5 +50,6 @@ public class Car {
     public void setCurrentYear(int currentYear) {
         this.currentYear = currentYear;
     }
+
 }
 

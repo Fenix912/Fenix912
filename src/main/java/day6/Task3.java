@@ -6,8 +6,5 @@ public class Task3 {
         Student student1 = new Student("Igor");
 
         teacher1.evaluate(student1);
-
-
-
     }
 }

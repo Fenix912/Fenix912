@@ -7,6 +7,7 @@ public class Task2 {
         System.out.println("Модель машины: " + motorbike1.getModel());
         System.out.println("Цвет машины: " + motorbike1.getColor());
         System.out.println("Год машины: " + motorbike1.getyear());
+
     }
 }
 

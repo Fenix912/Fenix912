@@ -42,6 +42,5 @@ public class Airplane {
         fuel += newFuel;
     }
 
-
 }
 
