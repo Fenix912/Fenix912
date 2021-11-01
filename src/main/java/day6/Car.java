@@ -1,26 +1,54 @@
 package day6;
 
 public class Car {
-    String model;
-    String color;
-    int god;
-    int currentYear;
+
+    private String model;
+    private String color;
+    private int year;
+    private int currentYear;
+
+
 
     void info() {
         System.out.println("Это Машина");
     }
 
-    int yearDifference() {
-        int inputYear = god - currentYear;
-        return inputYear;
+
+
+    public int yearDifference(int inputYear) {
+        return Math.abs(inputYear - year);
     }
 
-    public void proverka(int inputYear) {
-        if (inputYear < 0) {
-            System.out.println("значение должно быть положительным");
-        } else {
-            System.out.println(inputYear);
-        }
+    public String getModel() {
+        return model;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public int getyear() {
+        return year;
+    }
+
+    public void setYear(int Year) {
+        this.year = Year;
+    }
+
+    public int getCurrentYear() {
+        return currentYear;
+    }
+
+    public void setCurrentYear(int currentYear) {
+        this.currentYear = currentYear;
     }
 }
 

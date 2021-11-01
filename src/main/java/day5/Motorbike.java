@@ -4,12 +4,12 @@ public class Motorbike {
 
         private String Model;
         private String Color;
-        private int God;
+        private int year;
 
         public Motorbike(String Model, String Color, int God) {
             this.Model = Model;
             this.Color = Color;
-            this.God = God;
+            this.year = year;
         }
 
         public String getModel() {
@@ -18,7 +18,7 @@ public class Motorbike {
         public String getColor() {
             return Color;
         }
-        public int getGod() {
-            return God;
+        public int getyear() {
+            return year;
         }
 }

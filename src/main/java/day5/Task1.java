@@ -5,11 +5,11 @@ public class Task1 {
         Car car1 = new Car();
         car1.setModel("Porshe");
         car1.setColor("Red");
-        car1.setGod(2020);
+        car1.setyear(2020);
 
         System.out.println("Модель машины: " + car1.getModel());
         System.out.println("Цвет машины: " + car1.getColor());
-        System.out.println("Год машины: " + car1.getGod());
+        System.out.println("Год машины: " + car1.getyear());
     }
 }
 

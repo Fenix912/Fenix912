@@ -24,9 +24,10 @@ public class Teacher {
         Item = item;
     }
 
+    Random random = new Random();
     void evaluate(Student student){
-        Random random = new Random();
         int randomNumber = random.nextInt(4) + 2;
+
 
 
         String grade = "";
