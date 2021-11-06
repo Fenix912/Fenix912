@@ -8,8 +8,6 @@ public class Airplane {
     private int weight;
     private int fuel;
 
-
-
     public Airplane(String producer, int year, int length, int weight) {
         this.producer = producer;
         this.year = year;

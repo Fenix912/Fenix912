@@ -8,8 +8,6 @@ public class Player {
     private final static int MIN_STAMINA = 0;
     private static int countPlayers;
 
-
-
     public Player (int stamina) {
         this.stamina = stamina;
 

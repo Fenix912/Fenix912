@@ -1,6 +1,8 @@
 package day4;
 
 
+import day7.Player;
+
 import java.util.Arrays;
 import java.util.Scanner;
 import java.util.Random;
