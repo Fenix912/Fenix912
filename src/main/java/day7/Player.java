@@ -1,10 +1,14 @@
 package day7;
 
+
 public class Player {
+
     private int stamina;
     private final static int MAX_STAMINA = 100;
     private final static int MIN_STAMINA = 0;
     private static int countPlayers;
+
+
 
     public Player (int stamina) {
         this.stamina = stamina;
@@ -12,6 +16,8 @@ public class Player {
         if (countPlayers < 6)
             countPlayers++;
     }
+
+
 
     public int getStamina() {
         return stamina;
