@@ -15,8 +15,6 @@ public class Player {
             countPlayers++;
     }
 
-
-
     public int getStamina() {
         return stamina;
     }
@@ -24,7 +22,6 @@ public class Player {
     public static int getCountPlayers() {
         return countPlayers;
     }
-
 
     public void run() {
        if (stamina == 0) {

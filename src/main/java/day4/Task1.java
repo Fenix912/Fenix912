@@ -59,13 +59,11 @@ public class Task1 {
         int summa = 0;
         for (int num : aa) {
             summa = summa+num;
-            //noyChot++;
+            noyChot++;
         }
         System.out.println("Сумма всех числе: " + summa);
 
     }
-
-
 }
 
 

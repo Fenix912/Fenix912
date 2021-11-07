@@ -56,18 +56,4 @@ public class Airplane {
             System.out.println("Самолеты равны по длинне");
         }
     }
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
